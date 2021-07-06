@@ -20,8 +20,8 @@ main {
     background: rgba(246, 248, 245, 0.94);
     position: absolute;
     width: 65em;
-    height: 45em;
-    left: 8em;
+    height: 37em;
+    left: 10em;
     top: 10em;
     padding: 0.3em 7em 0.1em;
     border-radius: 20px;
@@ -37,7 +37,7 @@ h1 {
     letter-spacing: 0.03em;
     margin: 0;
     padding: 0;
-    margin-top: 0.9em;
+    margin-top: 0.6em;
     color: rgba(76, 167, 114, 1);
 }
 
@@ -45,14 +45,16 @@ h1 {
     background: #FFB425;
     width: 13em;
     height: 0.5em;
-    margin: 55px 0 30px;
+    margin: 30px 0 15px;
+    border: 0;
 }
 
 .green_line {
     background: rgba(76, 167, 114, 1);
     width: 13em;
     height: 0.5em;
-    margin: 30px 0 14px;
+    margin: 25px 0 10px;
+    border: 0;
 }
 
 .main_p {
@@ -65,6 +67,8 @@ h1 {
     height: 350px;
     width: 250px;
     position: fixed;
+    top: 36%;
+    left: 39%;
 }
 
 p {
@@ -86,7 +90,7 @@ p {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 30px 50px;
+    margin: 20px 50px;
 }
 
 .step p {
@@ -107,13 +111,13 @@ input {
     width: 50%;
     margin-left: 32.5%;
     margin-right: 32.5%;
-    background-color: #4CA772;
     font-size: 1.4em;
     padding: 1.3em;
     font-weight: 700;
     border-radius: 20px;
     color: rgba(255, 255, 255, 1);
     border: 0;
+    background-color: #4CA772;
 }
 
 input:hover {
