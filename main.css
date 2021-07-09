@@ -14,21 +14,22 @@ body {
     height: 100vh;
     font-family: 'Poppins', sans-serif;
     color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 main {
     background: rgba(246, 248, 245, 0.94);
-    position: absolute;
-    width: 65em;
-    height: 31em;
-    left: 10em;
-    top: 7em;
-    padding: 0.3em 7em 0.1em;
-    border-radius: 20px;
+    width: 87vw;
+    height: 85vh;
+    padding: 0.3em 3em 0.1em;
+    border-radius: 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 3em;
 }
 
 h1 {
@@ -45,7 +46,7 @@ h1 {
     background: #FFB425;
     width: 10em;
     height: 0.3em;
-    margin: 10px 0 15px;
+    margin: 30px 0 10px;
     border: 0;
 }
 
@@ -66,14 +67,14 @@ h1 {
     height: 300px;
     width: 200px;
     position: fixed;
-    top: 30%;
+    top: 25%;
     left: 43%;
 }
 
 p {
     font-size: 16px;
     font-weight: 400;
-    line-height: 25px;
+    line-height: 30px;
     text-align: center;
     font-style: normal;
     color: rgba(51, 51, 51, 1);
@@ -89,7 +90,7 @@ p {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 20px 50px;
+    margin: 50px 50px;
 }
 
 .step p {
@@ -107,13 +108,13 @@ p {
 }
 
 input {
-    width: 50%;
+    width: 60%;
     margin-left: 32.5%;
     margin-right: 32.5%;
     font-size: 1.3em;
     padding: 1.1em;
     font-weight: 700;
-    border-radius: 20px;
+    border-radius: 7px;
     color: rgba(255, 255, 255, 1);
     border: 0;
     background-color: #4CA772;
@@ -122,4 +123,238 @@ input {
 input:hover {
     background-color: #4CA772;
     color: #FFB425;
+}
+
+
+/*Responsive mode*/
+
+
+/*Responsive mode*/
+
+
+/*Responsive mode*/
+
+
+/*Mobile Screen*/
+
+
+/*Max width 700px*/
+
+
+/*Max width 700px*/
+
+
+/*Max width 700px*/
+
+@media only screen and (max-width: 700px) {
+    /*Tablets  [426px -> 600px]*/
+    main {
+        width: 85vw;
+        height: 85vh;
+        padding: 0.2em 3em 0.1em;
+        border-radius: 7px;
+        margin-top: 3em;
+    }
+    h1 {
+        font-weight: 600;
+        letter-spacing: 0.01em;
+        margin-top: 0.3em;
+        font-size: 1.3em;
+        line-height: 25px;
+    }
+    .yellow_line {
+        background: #FFB425;
+        width: 10em;
+        height: 0.3em;
+        margin: 20px 0 5px;
+        border: 0;
+    }
+    .green_line {
+        background: rgba(76, 167, 114, 1);
+        width: 10em;
+        height: 0.3em;
+        margin: 20px 0 5px;
+        border: 0;
+    }
+    #hometeachlogo {
+        height: 250px;
+        width: 170px;
+        position: absolute;
+        top: 32%;
+        left: 37%;
+    }
+    p {
+        font-size: 13px;
+    }
+    .step {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 30px 35px;
+        width: 7rem;
+    }
+    .step p {
+        font-size: 0.7em;
+        font-weight: 600;
+    }
+    .stepnumber {
+        padding: 0.2em 0.7em;
+        border-radius: 48%;
+        text-align: center;
+        font-size: 1em;
+        font-weight: 400;
+    }
+    input {
+        width: 60%;
+        font-size: 1.1em;
+        padding: 1em;
+        font-weight: 700;
+        border-radius: 7px;
+    }
+}
+
+
+/*Max width 550px*/
+
+
+/*Max width 550px*/
+
+
+/*Max width 550px*/
+
+@media only screen and (max-width: 550px) {
+    main {
+        width: 87vw;
+        height: 87vh;
+        padding: 0.1em 3em 0.1em;
+        border-radius: 7px;
+        margin-top: 2em;
+    }
+    h1 {
+        font-weight: 600;
+        letter-spacing: 0.01em;
+        font-size: 1.3em;
+        line-height: 25px;
+    }
+    .yellow_line {
+        background: #FFB425;
+        width: 10em;
+        height: 0.3em;
+        margin: 30px 0 10px;
+    }
+    .green_line {
+        width: 10em;
+        height: 0.3em;
+        margin: 15px 0 10px;
+    }
+    .main_p {
+        margin-bottom: 1em;
+    }
+    #hometeachlogo {
+        position: absolute;
+        top: 33%;
+        left: 35%;
+    }
+    p {
+        font-size: 13px;
+        font-weight: 400;
+    }
+    .steps {
+        margin: 5px 0px;
+        width: 100%;
+    }
+    .step {
+        margin: 30px 15px;
+    }
+    .step p {
+        font-size: 0.7em;
+        font-weight: 700;
+    }
+    .stepnumber {
+        padding: 0.2em 0.7em;
+        border-radius: 47%;
+        font-size: 0.9em;
+        font-weight: 400;
+    }
+    input {
+        width: 60%;
+        margin-left: 32.5%;
+        margin-right: 32.5%;
+        font-size: 1.1em;
+        padding: 1em;
+        font-weight: 700;
+        border-radius: 7px;
+    }
+}
+
+
+/*Max width 400px*/
+
+
+/*Max width 400px*/
+
+
+/*Max width 400px*/
+
+@media only screen and (max-width: 400px) {
+    /*Small smartphones [325px -> 425px]*/
+    main {
+        width: 87vw;
+        height: 90vh;
+        padding: 0.3em 1.5em 0.2em;
+        border-radius: 7px;
+        margin-top: 2em;
+    }
+    h1 {
+        font-weight: 600;
+        text-align: center;
+        letter-spacing: 0.01em;
+        margin-top: 0.1em;
+        font-size: 1.5em;
+        line-height: 23px;
+    }
+    .yellow_line {
+        width: 7em;
+        height: 0.2em;
+        margin: 10px 0 5px;
+    }
+    .green_line {
+        width: 7em;
+        height: 0.2em;
+        margin: 7px 0 20px;
+    }
+    .main_p {
+        margin-bottom: 0.5em;
+    }
+    #hometeachlogo {
+        height: 200px;
+        width: 150px;
+        position: absolute;
+        top: 25%;
+        left: 30%;
+    }
+    p {
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 20px;
+    }
+    .steps {
+        flex-direction: column;
+    }
+    .step {
+        margin: 5px 20px;
+    }
+    .step p {
+        font-size: 0.7em;
+        font-weight: 500;
+    }
+    input {
+        width: 70%;
+        margin-left: 30%;
+        margin-right: 30%;
+        font-size: 1em;
+        padding: 0.7em;
+        font-weight: 700;
+        border-radius: 5px;
+    }
 }
